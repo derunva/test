@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+}
+a{
+	color: #023875;
+}
+[href^="tel:"]{
+	text-decoration: none;
+}
+.wrapper{
+	padding: 0 15px;
+}
+.blue-line{
+	background: #023875;
+	padding: 15px 25px;
+	border-radius: 3px;
+	min-height: 45px;
+	color: #fff;
+	margin: 0 -15px;
+}
+.contacts-info{
+	font-size: 13px;
+	color: #303030;
+	margin: 25px 0;
+}
+.contacts-info a{
+	font-size: 24px;
+}
